@@ -1,0 +1,62 @@
+<head>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="menu-area">
+            <div class="limit-box">
+                <nav class="main-menu">
+                    <div class = "logo-image">
+                        <a href="main.html">
+                            <img height="119px" src="images/dog5.png" alt="#"></a>
+                    </div>
+                    <div>
+                        <div class="menu-area-main">
+                            <div class="active"> <a href="page-introduce.html">홈페이지 소개</a> </div>
+                            <div class="active"> <a href="map.html">반려견 산책로</a> </div>
+                            <div class="active"><a href="sell.html">반려견 간식</a></div>
+                            <div class="active"><a href="service.html">고객 센터</a></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="park1">
+
+        <!-- <img style = "width: 600px; height: 600px; margin: 30px;" src="images/daegu11.jpg"> -->
+
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQvnE52XHPumPzxCI5M-c-39X5736Shqw&callback=initMap"></script>
+        <div id="map" style="width:55%; height: 55vh;"></div>
+    </div>
+    <div class="park2-explain">
+        <p>	&#183; 주소 : 대구광역시 달성군 다사읍 세천리</p>
+        <p>	&#183; 문의 전화 : 053-659-4452</p>
+        <p>	&#183; 넓은 잔디밭이 있어서 반려동물과 같이오면 좋은 곳</p>
+
+
+
+    </div>
+    <script>
+        function initMap() {
+            var location = { lat: 35.88116346350676, lng: 128.47069666078437 };
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                zoom: 12,
+                center: location
+            });
+            var marker = new google.maps.Marker({position: location, map: map});
+
+        }
+    </script>
+</body>
