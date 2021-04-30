@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.title
+{
+    color:white;
+    text-align: center;
+    font-size: 75px;
+    background-color: #496f5d;
+}
+
+.park1
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.park1-explain > p
+{
+    font-size: 27px;
+    padding-left: 430px;
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #496f5d;
+    font-style: inherit;
+
+}
+
+.park2-explain > p
+{
+    font-size: 23px;
+    padding-left: 350px;
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #496f5d;
+    font-style: inherit;
+
+}
+
+.park3-explain > p
+{
+    font-size: 23px;
+    padding-left: 350px;
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #496f5d;
+    font-style: inherit;
+}
+
+.park4-explain > p
+{
+    font-size: 23px;
+    padding-left: 350px;
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #496f5d;
+    font-style: inherit;
+}
+
